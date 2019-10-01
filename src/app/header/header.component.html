@@ -1,0 +1,79 @@
+<div class = 'header'>
+
+			<mat-toolbar color="primary" fxLayoutGap = "8px">
+				
+			    <button mat-icon-button (click)="drawer.toggle()">
+			       <mat-icon>menu</mat-icon>
+			    </button>
+				
+
+			    <div fxFlex></div>
+
+			    <div>
+			       
+			           <span class="mat-body">Lazarus Chinounye</span>
+			                  
+			    </div>
+
+			    <div fxFlex></div>
+
+			    <div class="circle-link">
+			       nn
+			    </div>    
+      
+  			</mat-toolbar>
+</div> 
+
+		<mat-drawer-container class="example-container" >
+		 <mat-drawer #drawer [mode]="mode.value">
+		 	<h1> MENU </h1><hr>
+		 	<div class="mat-body">
+		 	<div>
+			       <a mat-button href="/home">
+			           <span class = 'mat-content'>HOME</span>
+			       </a>              	
+			    </div>
+			    <div>
+			       <a mat-button routerLink="/skills">
+			           <span class = 'mat-content'>ABOUT ME</span>
+			       </a>              
+			    </div>
+			    <div>
+			       <a mat-button routerLink="/home">
+			           <span class = 'mat-content'>MY PROFILE </span>
+			       </a>              
+			    </div>
+			    <div>
+			       <a mat-button routerLink="/home">
+			           <span class = 'mat-content'>MY SKILLS </span>
+			       </a>              
+			    </div>
+			    <div>
+			       <a mat-button routerLink="/home">
+			           <span class = 'mat-content'>CONTACT ME  </span>
+			       </a>              
+			    </div>
+			</div>
+		 </mat-drawer>
+		<mat-drawer-content #mode value="over">
+
+		<div class="welcome">
+		  <div fxFlex></div>
+		  <div class ="cls_header">	    
+
+		        <span style="text-align: center;">          
+		      
+		          <h1> Lazarus Chinounye </h1> 
+		          <h1>
+		            Im creative Angular Developer
+		          </h1>
+		          <hr>
+		        </span>
+		    
+		  </div>	
+		  <div fxFlex> </div> 
+		 </div> 
+
+
+	  </mat-drawer-content>
+	</mat-drawer-container>

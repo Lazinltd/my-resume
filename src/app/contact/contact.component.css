@@ -1,0 +1,70 @@
+
+.container {
+  background-color: whitesmoke; /*#f2f2f2;*/
+}
+.contact {
+  margin: 0 auto;
+  max-width: 1024px;
+  color: var(--font-color)
+}
+mat-form-field{
+  padding: .5rem;
+  text-align: left;
+  width: 100%;
+  display: flex;
+}
+.mat-button[color=primary]{
+  width: 100%
+}
+.center_align{
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0 2rem 0;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+.align_center{
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1rem 0 2rem 0;
+   color: var(--font-color)
+}
+img:hover, .align_center:hover, .center_align:hover{   
+    transform: scale(0.95); 
+}
+img, .align_center{   
+    transition-property: transform;   
+    transition-duration: 0.3s; 
+}
+.grid .card .skill:focus {   
+    outline: none;
+
+} 
+img:focus-within {   
+    transform: scale(0.95); 
+}
+.align_center:focus-within {   
+    transform: scale(0.95); 
+}
+.center_align:focus-within {   
+    transform: scale(0.95); 
+}
+.alignCenter{
+  margin: 0 auto;
+  max-width: 300px;
+   display: inline-block;
+  color: var(--font-color)
+}
+button:hover{
+  background: whitesmoke;
+  color: var(--font-color);
+}
+button{
+  font-size: 11px
+}
+span p mat-hint{
+   color: var(--font-color)
+}

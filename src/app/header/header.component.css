@@ -1,0 +1,115 @@
+
+@media screen and (min-width : 400px) {
+	.welcome{
+	min-height: 1000px;
+	font-size: var(--base-font-size);
+	height: 2em;
+
+	}
+	.cls_header{
+
+	color: whitesmoke;
+	font-size: var(--base-font-size);
+	}
+}
+
+@media screen and (min-width : 760px) {
+	.welcome{
+
+	width: 100%;
+	height: 100%;
+	font-size: var(--base-font-size);
+	height: 2em;
+
+	}
+	.cls_header{
+	color: whitesmoke;	
+	font-size: var(--base-font-size);
+	
+
+	}
+}
+
+@media screen and (min-width : 900px) {
+	.welcome{
+
+	width: 100%;
+	height: 100%;
+	font-size: var(--base-font-size);
+	height: 2em;
+	
+
+	}
+	.header{
+	color: whitesmoke;
+	font-size: var(--base-font-size);
+	
+
+	}
+}
+
+
+.cls_header{
+	font-size: 10px;
+	color: whitesmoke;
+	width: 100%;
+	min-height: -webkit-fill-available;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+	max-height: 100%;
+	margin: var(--margin-center);
+	overflow: hidden;
+	/*padding: 30% 0 30% 0;*/
+	position: absolute;
+	
+}
+.welcome{
+	width: 100%;
+	min-height: -webkit-fill-available;/*
+	background-image: radial-gradient(ellipse at center, 
+										transparent 0, 
+										rgba(255, 155, 255, 0.5) 100%);
+*/
+	background: radial-gradient(ellipse at center, #16222A, #0E0B16);
+
+	
+}
+.mat-toolbar.mat-primary {
+	height: 3em;
+    background: radial-gradient(  #16222A, #0E0B16);
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+
+}
+.example-container{
+	background: whitesmoke;
+	color: var(--font-color);
+}
+
+mat-drawer{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30%;
+  background: whitesmoke;
+
+}
+a{
+	
+	margin: 0 auto;
+	text-align: left;
+	padding-left: 3rem;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	max-height: 100%;
+	font-size: 12px;
+	color: var(--font-color)
+}
