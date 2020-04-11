@@ -1,2 +1,2 @@
-# my-resume
-angular 8
+# quick
+seal
